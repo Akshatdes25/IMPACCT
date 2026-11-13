@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">IMPACCT Preview</string>
+    <string name="title_activity_main">IMPACCT Preview</string>
+    <string name="package_name">info.impacct.preview</string>
+    <string name="custom_url_scheme">info.impacct.preview</string>
+</resources>

@@ -1,0 +1,9 @@
+{
+	"appId": "info.impacct.preview",
+	"appName": "IMPACCT Preview",
+	"webDir": "www",
+	"android": {
+		"allowMixedContent": false
+	},
+	"backgroundColor": "#0d4d89"
+}
