@@ -16,7 +16,9 @@ jobs:
         with: { distribution: temurin, java-version: 17 }
       - run: npm install
         working-directory: ${{ steps.find.outputs.dir }}
-      - run: npx cap sync android
+      - run: |
+          if [ ! -d android ]; then npx cap add android; fi
+          npx cap sync android
         working-directory: ${{ steps.find.outputs.dir }}
       - run: chmod +x gradlew && ./gradlew assembleDebug
         working-directory: ${{ steps.find.outputs.dir }}/android
